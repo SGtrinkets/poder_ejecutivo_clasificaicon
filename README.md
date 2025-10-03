@@ -3,17 +3,19 @@ Este proyecto analiza constituciones nacionales para clasificar el nivel de pode
 
 Descripción del Proyecto
 El proyecto utiliza datos del dataset "Constitution Dataset" que incluye información sobre 190+ constituciones nacionales. Se implementan y comparan varios algoritmos de clasificación:
-
-Naive Bayes (MultinomialNB)
-Regresión Logística
-Árbol de Decisión
-LinearSVC (Support Vector Classifier)
-Random Forest
+- Naive Bayes (MultinomialNB)
+- Regresión Logística
+- Árbol de Decisión
+- LinearSVC (Support Vector Classifier)
+- Random Forest
 
 El objetivo es clasificar las constituciones en dos categorías:
 
+
 Nivel 0: Bajo poder ejecutivo (0-4 en escala original)
 Nivel 1: Alto poder ejecutivo (5-7 en escala original)
+
+
 
 Librerías Requeridas:
 Instala las siguientes librerías antes de ejecutar el proyecto:
